@@ -14,6 +14,7 @@ public class Matrices {
         System.out.println(m2);
         try {
             System.out.println(Matriz.multiplicarDosMatrices(m1, m2));
+            System.out.println(Matriz.matrizInversa(m1));
         } catch (DimensionesIncompatibles ex) {
             ex.printStackTrace();
         }
