@@ -13,7 +13,7 @@ public class Matrices {
         Matriz m2 = new Matriz(3, 4, true);
         System.out.println(m2);
         try {
-            System.out.println(Matriz.sumarDosMatrices(m1, m2));
+            System.out.println(Matriz.multiplicarDosMatrices(m1, m2));
         } catch (DimensionesIncompatibles ex) {
             ex.printStackTrace();
         }
